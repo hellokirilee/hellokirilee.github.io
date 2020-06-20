@@ -1,0 +1,165 @@
+* {
+    border: #da4167ff solid 1px;
+  }
+  html {
+    height: 100%;
+  }
+  body {
+    background-color: #2E4057;
+    font-family: montserrat;
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  nav {
+    background-color: #c191a1ff;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+  }
+  a {
+    color: #639fabff;
+    background-color: #fdfffcff;
+    font-size: 20px;
+  }
+  a:hover {
+    font-weight: bold;
+    color: #da4167ff;
+  }
+
+  #name {
+    font-family: pacifico; 
+    color: #fdfffcff;
+    font-size: 50px;
+
+    }
+
+h1 {
+    font-family: pacifico; 
+    color: #fdfffcff;
+    text-align: center;
+    }
+
+  footer {
+    background-color: #639fabff;
+    height: 100px;
+
+  }
+
+  img {
+    max-width: 35%;
+}
+
+@media (max-width: 500px) { 
+    
+
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #639fabff;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: #2E4057;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: #c191a1ff;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #c191a1ff;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #da4167ff;
+    color: #bc191a1f;
+  }
+
+
+}
+
+    
+
+
+
+
+/* * {
+    border: #da4167ff solid 1px;
+}
+
+
+body {
+    background-color: #2e4057;
+    font-family: montserrat;
+    display: flex;
+    flex-flow: column;
+    align-self: stretch;
+
+}
+
+nav {
+    background-color: #c191a1ff;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+
+a {
+    color: #639fabff;
+    background-color: #fdfffcff;
+    font-size: 20px;
+
+
+}
+
+a:hover {
+    font-weight: bold;
+    color:  #da4167ff;
+
+}
+
+#name {
+    font-family: pacifico; 
+    color: #fdfffcff;
+    font-size: 150px;
+
+}
+
+h1 {
+    font-family: pacifico; 
+    color: #fdfffcff;
+    text-align: center;
+}
+
+footer {
+    background-color: #639fabff;
+    display: flex;
+    align-items: flex-end; 
+}
+
+img {
+    max-width: 35%;
+} */
