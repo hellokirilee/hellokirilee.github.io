@@ -96,19 +96,15 @@
     max-width: 40%;
     padding-left: 2em;
     color:#fdfffcff;
-    column
+
   }
-
+/* 
   #fit-picture {
-    max-width: 35%;
-    float: right;
-    column-span: 1;
+    max-width: 35;
+    /* float: ;
+    column-span: 1; */
 
-    
-
-}
-
-
+      
 
 
   @media screen and (max-width: 50em) {
