@@ -70,6 +70,8 @@ h3 {
   color: #c191a1ff;
   text-align: center;
   font-size: 2em; 
+  margin: .5em;
+  padding: 0;
 
 }
 
@@ -77,6 +79,8 @@ h3 {
   display: flex;
   flex-direction: column;
   margin-top: 0px;
+  justify-self: center;
+
 }
 
 #socials {
@@ -88,40 +92,40 @@ h3 {
 
 #thumbnails {
   padding: .5em;
-  display:flex;
+  display: flex;
   justify-content: center;
 }
 
 p {
-  max-width: 70%;
+  max-width: 75%;
   align-self: center;
   text-align: center;
   padding-bottom: 1em;
   
 }
 
-#contact-form {
-  align-self: center;
+#form {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  max-width: 85%;
+  justify-content: right;
   
 }
 
-.form-item label {
-  float: left;
-  min-width: 10em;
-}
 
-.form-item input {
-  flex-grow: 2;
-}
 
 
 .form-button {
-  float: right;
-  padding: 1.5em;
+  display: flex;
+  justify-self: center;
+  padding: .5em;
+  align-self: center;
+  justify-self: center;
 }
 
 header {
-  margin: 0px
+  margin: 0px;
+  
 } 
 
 /* Desktop */
