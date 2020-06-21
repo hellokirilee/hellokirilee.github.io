@@ -9,7 +9,7 @@ img {
  
 html {
   height: 100%;
-  font-size: 14;
+  font-size: 2vw;
 }
 
 body {
@@ -109,6 +109,8 @@ p {
   flex-wrap: nowrap;
   max-width: 85%;
   justify-content: right;
+  justify-self: center;
+  align-self: center;
   
 }
 
