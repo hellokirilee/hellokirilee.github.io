@@ -1,11 +1,12 @@
-/* * {
+* {
   border: #da4167ff solid 1px;
-} */
+}
 
 img {
   width: 75px;
-}
 
+}
+ 
 html {
   height: 100%;
   font-size: 14;
@@ -58,6 +59,8 @@ h2 {
   font-size: 3em;
   font-weight: normal;
   padding-top: .5em;
+  margin-bottom: .25em;
+  padding-bottom: 0;
 
 }  
 
@@ -78,18 +81,15 @@ h3 {
 
 #socials {
   display: block;
-  align-self: center;
-  align-items: center;
-
+  margin-bottom: 0;
 
 }
 
 
-
-
 #thumbnails {
   padding: .5em;
-
+  display:flex;
+  justify-content: center;
 }
 
 p {
@@ -122,4 +122,30 @@ p {
 
 header {
   margin: 0px
+} 
+
+/* Desktop */
+@media screen and (min-width: 500px) {
+#content {
+  display: flex;
+  flex-flow: wrap;
+  align-content: space-around;
+  justify-content: space-evenly
+}
+
+p {
+  max-width: 40%;
+}
+
+#form {
+  min-width: 50%;
+  font-weight: bold;
+}
+
+
+#socails {
+  align-self: flex-end;
+
+}
+
 }
