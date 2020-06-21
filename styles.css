@@ -61,6 +61,14 @@ h1 {
 
 }
 
+h2 {
+  font-family: pacifico; 
+  color: #fdfffcff;
+  text-align: center;
+  font-size: 2em;
+
+}
+
 h3 {
   font-weight: normal;
   color: #c191a1ff;
