@@ -96,9 +96,22 @@ img {
 
 
 
-@media screen and (min-width: 650px) {
-  
+@media screen and (max-width: 650px) {
+.card {
+    display: felx;
+    flex-direction: column;
+    text-align: center;
+  } 
 
-  
+.card:nth-child(even) {
+  display:felx;
+  flex-direction: column;
+}
+
+img {
+  max-width: 70%;
+  align-self: center;
+}
+
 }
 
