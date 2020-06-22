@@ -193,6 +193,8 @@ p {
   order: 3;
   float: right;
   flex-basis: 50%;
+  width: 66vw; 
+  justify-content: center;
   
 }
 
@@ -200,6 +202,7 @@ p {
   align-self: stretch;
   order: 2;
   flex-basis: 50%;
+  width: 33vw;
 
 
 }
