@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="iconmonstr-twitter-1.svg"
+   id="svg22"
+   version="1.1"
+   viewBox="0 0 24 24"
+   height="24"
+   width="24">
+  <metadata
+     id="metadata28">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs26" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg22"
+     inkscape:window-maximized="0"
+     inkscape:window-y="117"
+     inkscape:window-x="135"
+     inkscape:cy="-0.71375465"
+     inkscape:cx="3.4126394"
+     inkscape:zoom="22.416667"
+     showgrid="false"
+     id="namedview24"
+     inkscape:window-height="480"
+     inkscape:window-width="1012"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <path
+     style="fill:#639fab;stroke:#639fab;stroke-width:0.999999;fill-opacity:0.99999994;stroke-opacity:1"
+     id="path20"
+     d="m 24,4.5570001 c -0.883,0.392 -1.832,0.6560001 -2.828,0.7750001 C 22.189,4.723 22.97,3.7580001 23.337,2.608 22.386,3.172 21.332,3.5820001 20.21,3.8030001 19.313,2.846 18.032,2.248 16.616,2.248 13.437,2.248 11.101,5.2140002 11.819,8.2930003 7.728,8.0880003 4.0999999,6.1280002 1.671,3.149 0.381,5.3620002 1.002,8.2570004 3.1939999,9.7230003 2.388,9.6970005 1.628,9.4760004 0.96499999,9.1070003 0.91099999,11.388 2.5459999,13.522 4.914,13.997001 c -0.693,0.188 -1.452,0.232 -2.2240001,0.084 0.6260002,1.956 2.4440002,3.379 4.6000001,3.419 -2.07,1.623 -4.6780001,2.348 -7.29,2.04 2.179,1.397 4.7680001,2.211999 7.548,2.211999 9.142,0 14.307,-7.721 13.995,-14.6459998 C 22.505,6.4110001 23.34,5.5440001 24,4.5570001 Z" />
+</svg>
