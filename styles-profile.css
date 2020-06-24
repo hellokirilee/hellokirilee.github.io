@@ -99,13 +99,12 @@ img {
 
 
 /* Desktop */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 500px) {
 
-    /* body {
-        display: flex;
-        flex-flow: row wrap;
-        } */
-
+  html {
+    font-size: 2vw;
+  }
+    
 
     img {
         width: 30%;
@@ -134,7 +133,9 @@ img {
         width: 30%;
     }
 
-
+    a {
+      font-size: 2em;
+    }
 
     
     
