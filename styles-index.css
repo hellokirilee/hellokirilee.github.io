@@ -98,6 +98,10 @@ img {
   h1 {
     font-size: 12vw;
   }
+
+  nav {
+    font-size: 2em;
+  }
 }
 
 
