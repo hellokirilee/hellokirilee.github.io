@@ -119,4 +119,12 @@ footer {
   footer {
     font-size: 2vw;
   }
+
+html {
+  max-height: 100vh;
+}
+
+.topnav {
+  width: 100vw;
+}
 }
