@@ -40,9 +40,8 @@ body {
 h1 {
   font-family: pacifico; 
   color: #fdfffcff;
-  /* mobile view height */
   font-size: 9vh;
-  /* align-self: center; */
+
 }
 
 
@@ -64,7 +63,7 @@ footer {
 
 
 
-.mobile-container {
+.container {
   width: 99vw;
   margin: auto;
   max-height: 100vw;

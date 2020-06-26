@@ -17,8 +17,8 @@
 </head>
 
 <body>
-<!-- Simulate a smartphone / tablet -->
-<div class="mobile-container">
+<!-- Navigation Menu -->
+<div class="container">
 <!-- Top Navigation Menu -->
     <div class="topnav">
     <a href="index.html" class="active">Home</a>
@@ -27,7 +27,7 @@
         <a href="portfolio.html">Portfolio</a>
         <a href="contact.html">Contact</a>
     </div>
-        <a href="javascript:void(0);" class="icon" onclick="mobilenav()">
+        <a href="javascript:void(0);" class="icon" onclick="nav()">
             <i class="fas fa-hamburger"></i>
         </a>
     </div>
@@ -44,16 +44,8 @@
 
 
 
-    <script>
-            function mobilenav() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-    } else {
-        x.style.display = "block";
-    }
-    }
-    </script>
+    <script src="navbar.js"></script>
+
 
 </body>
 </html>
