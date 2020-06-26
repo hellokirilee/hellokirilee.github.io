@@ -1,7 +1,3 @@
-* {
-  border: #da4167ff solid 1px;
-}
-
 html {
   height: 100%;
   font-size: 2vw;
@@ -11,7 +7,8 @@ body {
   background-color: #2E4057;
   font-family: montserrat;
   color: #fdfffcff;
-  }
+  font-size: 1em;  
+}    
 
 nav {
   background-color: #c191a1ff;
@@ -42,8 +39,8 @@ h1 {
   color: #fdfffcff;
   text-align: center;
   font-size: 3em;
-  padding-bottom: 0;
-  margin-bottom: 0;
+  /* padding-bottom: 0;
+  margin-bottom: 0; */
 
 }
 
@@ -52,6 +49,7 @@ h2 {
   color: #fdfffcff;
   text-align: center;
   font-size: 2em;
+  padding-top: 1em;
 
 }
 
@@ -76,6 +74,7 @@ font-size: 1em;
 
 img {
   max-width: 35%;
+  padding: 1em;
 }
 
 .wrapper {
@@ -96,7 +95,7 @@ img {
 
 
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
 .card {
     display: felx;
     flex-direction: column;

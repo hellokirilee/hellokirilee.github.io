@@ -6,21 +6,32 @@
         </title>
         <meta name="Profile" content="About Me">
         <meta name="author" content="Kiri Mews">
-        <link rel = "stylesheet" href="styles-profile.css">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,300&family=Pacifico&display=swap" rel="stylesheet"> 
+           <!-- /* Font Awesome Icon */ -->
+    <script src="https://kit.fontawesome.com/19500649a6.js" crossorigin="anonymous"></script>
+    <!-- /* My Style Sheet */ -->
+    <link rel = "stylesheet" href="styles-profile.css">
+    <!-- /* Google Fonts */ -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,300&family=Pacifico&display=swap" rel="stylesheet">
     </head>
-    <body>
-        <header>
-            <h2>About me</h2>
-        </header>
-        <nav>
-            <div class = "link">         
-            <a href = "index.html">Home</a></div>
-            <div class = "link">
-            <a href = "portfolio.html">Portfolio</a></div>    
-            <div class = "link">
-            <a href = "contact.html">Contact</a></div>
-        </nav>
+
+         <!-- Navigation Menu -->
+        <div class="mobile-container">
+            <!-- Top Navigation Menu -->
+                <div class="topnav">
+                <a href="index.html" class="active">Home</a>
+                <div id="myLinks">
+                    <a href="profile.html">Profile</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                    <a href="javascript:void(0);" class="icon" onclick="nav()">
+                        <i class="fas fa-hamburger"></i>
+                    </a>
+                </div>
+        <body>
+            <header>
+                <h2>About me</h2>
+            </header>
 
             <div class="wrapper">
                     <img id = "my-photo" src="images/me.jpg" alt = "Kiri.">
@@ -34,6 +45,6 @@
                     </p>                    
                     <img id = "programmer" src="images/programmer.svg" alt = "Not Kiri.">
             </div>
-   
+            <script src="navbar.js"></script>
     </body>
     </html>
