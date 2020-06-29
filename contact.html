@@ -4,22 +4,32 @@
         <title>
         Contact Kiri
         </title>
-        <meta name="Contact" content="Contact Details">
-        <meta name="author" content="Kiri Mews">
-        <link rel = "stylesheet" href="styles-contact.css">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,300&family=Pacifico&display=swap" rel="stylesheet"> 
+         <!-- /* Font Awesome Icon */ -->
+         <script src="https://kit.fontawesome.com/19500649a6.js" crossorigin="anonymous"></script>
+         <!-- /* My Style Sheet */ -->
+         <link rel = "stylesheet" href="styles/contact.css">
+         <!-- /* Google Fonts */ -->
+         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,300&family=Pacifico&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     </head>
+
+    <!-- Navigation Menu -->
+    <div class="mobile-container">
+        <!-- Top Navigation Menu -->
+            <div class="topnav">
+            <a href="index.html" class="active">Home</a>
+            <div id="myLinks">
+                <a href="profile.html">Profile</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </div>
+                <a href="javascript:void(0);" class="icon" onclick="nav()">
+                    <i class="fas fa-hamburger"></i>
+                </a>
+            </div>
+
         <body>
-            <nav>
-                <div class = "link">
-                <a href = "portfolio.html">Portfolio</a></div>
-                <div class = "link">
-                <a href = "index.html">Home</a></div>
-                <div class = "link">
-                <a href = "profile.html">Profile</a></div>
-            </nav>
             <header>
                 <h2>Get in touch!</h2>
             </header>
@@ -55,5 +65,6 @@
                 </div>
             </div>
         </div>
+        <script src="navbar.js"></script>
     </body>
 </html>

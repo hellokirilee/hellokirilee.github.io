@@ -13,6 +13,8 @@ $puce: #c191a1ff;
 html {
   height: 100vw;
   font-size: 2vw;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -21,6 +23,7 @@ body {
   font-family: montserrat;
   font-size: 16px;
   max-height: 100vw;
+  justify-content: center;
 }
 
 
@@ -64,7 +67,7 @@ footer {
 /* Navigation Menu */
 
 .container {
-  width: 99vw;
+  width: 98vw;
   margin: auto;
   max-height: 100vw;
   color:#fdfffcff;

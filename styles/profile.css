@@ -15,9 +15,15 @@ body {
   justify-content: center;
   align-content: center;
   color: #fdfffcff;
-  font-size: 16px;
+  font-size: 1em;
 
   }
+
+  
+p {
+  line-height: 2em;
+}
+
 
 /* Navigation */
   .container {
@@ -25,7 +31,6 @@ body {
     margin: auto;
     max-height: 100vw;
     color:#fdfffcff;
-    /* position: fixed; */
     top: 1px;
     left: 2px;
     border-radius: 10px;
