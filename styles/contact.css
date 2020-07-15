@@ -247,7 +247,7 @@ p {
   order: 3;
   float: right;
   flex-basis: 50%;
-  width: 48vw; 
+  width: 45vw; 
   justify-content :center;
   
 }
@@ -256,7 +256,7 @@ p {
   align-self: stretch;
   order: 2;
   flex-basis: 50%;
-  width: 43svw;
+  width: 43vw;
 
 }
 
