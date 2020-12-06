@@ -147,7 +147,7 @@ p {
 
 input,
 textarea {
-  font-size: 1em;
+  font-size: 2em;
   box-shadow: inset 0px 1px 1px #fdfffcff, 0px 1px 1px #c191a1ff;
   border-radius: 3px;
   width: 80vw;
@@ -256,7 +256,8 @@ header {
 
   textarea {
     height: 150px;
-    font-size: 0.5em;
+    font-size: 0.75em;
+    font-family: montserrat;
   }
 
   input[type="submit"] {
